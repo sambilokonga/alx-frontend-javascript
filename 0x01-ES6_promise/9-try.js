@@ -1,3 +1,7 @@
+/*
+ * function named guardrail that will accept one argument mathFunction (Function)
+ */
+
 export default function guardrail(mathFunction) {
   const queue = [];
 

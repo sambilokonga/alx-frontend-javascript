@@ -1,3 +1,7 @@
+/*
+ * async function named asyncUploadUser that will call these two functions and return an object
+ */
+
 import { uploadPhoto, createUser } from './utils';
 
 const asyncUploadUser = async () => {

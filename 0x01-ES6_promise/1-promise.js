@@ -1,3 +1,6 @@
+/*
+ * Using the prototype below, return a promise. The parameter is a boolean
+ */
 export default function (boolean) {
   return new Promise((resolve, reject) => {
     const object = {

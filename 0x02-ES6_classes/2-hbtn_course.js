@@ -1,3 +1,7 @@
+/*
+ * Implement a class named HolbertonCourse
+ */
+
 export default class HolbertonCourse {
   constructor(name, length, students) {
     if (typeof name !== 'string') {

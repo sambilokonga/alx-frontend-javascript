@@ -1,3 +1,8 @@
+/*
+ * Import Car from 10-car.js.
+ * Implement a class named EVCar that extends the Car class
+ */
+
 import Car from './10-car';
 
 class EVCar extends Car {

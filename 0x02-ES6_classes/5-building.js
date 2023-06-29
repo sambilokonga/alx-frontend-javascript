@@ -1,3 +1,7 @@
+/*
+ * Implement a class named Building
+ */
+
 export default class Building {
   constructor(sqft = 0) {
     if (this.constructor !== Building

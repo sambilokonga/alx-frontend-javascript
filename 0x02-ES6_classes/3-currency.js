@@ -1,3 +1,7 @@
+/*
+ * Implement a class named Currency
+ */
+
 export default class Currency {
   constructor(code, name) {
     if (typeof code !== 'string') {

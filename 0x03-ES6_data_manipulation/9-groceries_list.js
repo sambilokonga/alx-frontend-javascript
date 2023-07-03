@@ -1,3 +1,7 @@
+/*
+ * function named groceriesList that returns a map of groceries with the following items (name, quantity)
+ */
+
 export default function groceriesList() {
   const items = new Map();
   items.set('Apples', 10);

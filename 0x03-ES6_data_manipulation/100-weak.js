@@ -1,3 +1,8 @@
+/*
+ * Export a const instance of WeakMap and name it weakMap.
+ * Export a new function named queryAPI. It should accept an endpoint argument like so
+ */
+
 export const weakMap = new WeakMap();
 export function queryAPI(endpoint) {
   let count = weakMap.get(endpoint) || 0;

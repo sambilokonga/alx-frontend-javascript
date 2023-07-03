@@ -1,7 +1,3 @@
-/*
- * a function named updateUniqueItems that returns an updated map for all items with initial quantity at 1
- */
-
 export default function updateUniqueItems(map) {
   const list = map;
 

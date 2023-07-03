@@ -1,7 +1,3 @@
-/*
- * a function updateStudentGradeByCity that returns an array of students for a specific city with their new grade
- */
-
 export default function updateStudentGradeByCity(listStudents, city, newGrades) {
   const students = listStudents.filter((student) => student.location === city);
   for (const student of students) {
